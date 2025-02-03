@@ -120,9 +120,10 @@ export default function Home() {
                 src={DraIsadora}
                 alt="Dra Isadora"
                 className="mx-auto h-auto w-full"
+                style="width: 90%"
               />
             </div>
-            <div className="flex h-full w-full flex-col gap-6 text-left">
+            <div className="flex h-full w-full flex-col gap-6 text-left justify-start">
               <TextBox>
                 Graduada em Medicina pela Universidade do Oeste Paulista
                 (UNOESTE).

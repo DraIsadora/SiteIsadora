@@ -269,7 +269,7 @@ export default function Home() {
           }}
         >
           Agendar Consulta
-        </button>
+        </button> 
       </div>
 
       <Footer />

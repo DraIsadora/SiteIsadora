@@ -250,6 +250,7 @@ export default function Home() {
               answer="Atendemos pacientes com idade máxima de 16 anos. Nosso foco é oferecer um atendimento especializado para crianças e adolescentes, proporcionando um ambiente acolhedor e adequado para essa faixa etária."
               onClick={() => handleClick('IdadeAtendimento')}
             />
+            
           </div>
           <button
             className="my-8 rounded-full bg-bege-150 px-20 py-2 text-center text-xl font-semibold text-orange-10 transition duration-300 ease-in-out hover:bg-bege-150/95"

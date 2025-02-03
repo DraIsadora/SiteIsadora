@@ -161,7 +161,7 @@ export default function Home() {
           </h1>
           {isMobile ? (
             <Slider {...settings} className="mx-auto mt-4 max-w-[80%] px-3">
-              <div className="p-6 textAtuacao">
+              <div className="p-6">
                 <Cards>Distúrbios de crescimento</Cards>
               </div>
               <div className="p-6">

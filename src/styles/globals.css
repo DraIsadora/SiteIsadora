@@ -25,6 +25,10 @@ body {
   }
 
   .text-lg {
-    font-size: 1.35rem;
+    font-size: 1.5rem;
+  }
+
+  img.imageDra{
+    width: 90%;
   }
   

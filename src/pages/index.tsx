@@ -122,7 +122,7 @@ export default function Home() {
                 className="mx-auto h-auto w-full imageDra"
               />
             </div>
-            <div className="flex h-full w-full flex-col gap-6 text-left justify-start">
+            <div className="flex h-full w-full flex-col gap-6 text-left justify-center">
               <TextBox>
                 Graduada em Medicina pela Universidade do Oeste Paulista
                 (UNOESTE).

@@ -119,8 +119,7 @@ export default function Home() {
               <Image
                 src={DraIsadora}
                 alt="Dra Isadora"
-                className="mx-auto h-auto w-full"
-                style="width: 90%"
+                className="mx-auto h-auto w-full imageDra"
               />
             </div>
             <div className="flex h-full w-full flex-col gap-6 text-left justify-start">

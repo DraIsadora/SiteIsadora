@@ -46,20 +46,19 @@ export default function PrivacyPolicy() {
           </h1>
 
           <p className="mb-12 text-center">
-            Esta Política de Privacidade descreve como coletamos, usamos e
-            divulgamos informações pessoais dos usuários de nosso site. Ao
-            utilizar o nosso site, você concorda com a coleta e uso de
-            informações de acordo com esta política.
+            Esta Política de Privacidade explica como coletamos, utilizamos e protegemos as informações pessoais dos usuários de nosso site. Ao acessar e utilizar nossos serviços, você concorda com os termos aqui descritos.
           </p>
 
           <h2 className="text-2xl font-semibold mb-2">
-            1. Informações que coletamos
+            1. Coleta de Informações
           </h2>
           <p className="mb-8">
-            Coletamos informações sobre você quando você interage com nosso
-            site. As informações que coletamos dependem do contexto de suas
-            interações com nosso site, das escolhas que você faz e dos produtos
-            e recursos que você usa.
+          Coletamos informações conforme sua interação com nosso site. Os dados podem incluir:
+            <ol>
+              <li>Informações de navegação (endereço IP, tipo de dispositivo, navegador utilizado e páginas acessadas);</li>
+              <li>Preferências e interações com nosso conteúdo;</li>
+              <li>Dados fornecidos voluntariamente por meio de formulários de contato ou cadastros.</li>
+            </ol>
           </p>
 
           <h2 className="text-2xl font-semibold mb-2">

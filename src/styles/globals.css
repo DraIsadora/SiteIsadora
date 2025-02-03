@@ -31,4 +31,12 @@ body {
   img.imageDra{
     width: 90%;
   }
+
+  .text-3xl {
+    font-size: 2.25rem;
+  }
+
+  .textAtuacao{
+    font-size: 1.15rem;
+  }
   

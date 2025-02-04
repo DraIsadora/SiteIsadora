@@ -156,7 +156,7 @@ export default function Home() {
           id="atuação"
           className="relative -top-[95px] flex flex-col items-center justify-center gap-7 "
         >
-          <h1 className="mt-40 text-3xl font-semibold uppercase leading-none text-orange-1000 md:mt-0 textAtuacao">
+          <h1 className="mt-40 text-3xl font-semibold uppercase leading-none text-orange-1000 md:mt-0">
             ÁREAS DE ATUAÇÃO
           </h1>
           {isMobile ? (

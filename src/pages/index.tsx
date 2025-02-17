@@ -250,6 +250,11 @@ export default function Home() {
               answer="Atendemos pacientes com idade máxima de 16 anos. Nosso foco é oferecer um atendimento especializado para crianças e adolescentes, proporcionando um ambiente acolhedor e adequado para essa faixa etária."
               onClick={() => handleClick('IdadeAtendimento')}
             />
+            <FAQ
+              question="Tem atendimento em convênio?"
+              answer="Sim, é possível fazer atendimento via convênio."
+              onClick={() => handleClick('IdadeAtendimento')}
+            />
 
           </div>
           <button
@@ -270,14 +275,13 @@ export default function Home() {
           }}
         >
           Agendar Consulta
-        </button> 
+        </button>
       </div>
 
       <Footer />
       <div
-        className={`fixed bottom-6 right-6 bg-bege-150 opacity-70 p-3 rounded-full text-orange-1000 cursor-pointer transition duration-300 ease-in-out ${
-          scrolled ? 'block' : 'hidden'
-        }`}
+        className={`fixed bottom-6 right-6 bg-bege-150 opacity-70 p-3 rounded-full text-orange-1000 cursor-pointer transition duration-300 ease-in-out ${scrolled ? 'block' : 'hidden'
+          }`}
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
         <FaArrowUp size={24} />

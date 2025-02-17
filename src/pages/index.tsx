@@ -241,7 +241,7 @@ export default function Home() {
               onClick={() => handleClick('ReembolsoConvênio')}
             />
             <FAQ
-              question="Tem atendimento por convênio?"
+              question="Tem atendimento por convênio? "
               answer="Não, nosso atendimento é exclusivamente particular. Priorizamos oferecer um serviço personalizado e de alta qualidade, garantindo um acompanhamento diferenciado para cada paciente."
               onClick={() => handleClick('AtendimentoConvênio')}
             />

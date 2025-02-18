@@ -119,10 +119,10 @@ export default function Home() {
               <Image
                 src={DraIsadora}
                 alt="Dra Isadora"
-                className="mx-auto h-auto w-full imageDra"
+                className="mx-auto h-auto w-full"
               />
             </div>
-            <div className="flex h-full w-full flex-col gap-6 text-left justify-center">
+            <div className="flex h-full w-full flex-col gap-6 text-left">
               <TextBox>
                 Graduada em Medicina pela Universidade do Oeste Paulista
                 (UNOESTE).
@@ -240,22 +240,6 @@ export default function Home() {
               answer="Sim, o faremos ao fim da consulta."
               onClick={() => handleClick('ReembolsoConvênio')}
             />
-            <FAQ
-              question="Tem atendimento por convênio? "
-              answer="Não, nosso atendimento é exclusivamente particular. Priorizamos oferecer um serviço personalizado e de alta qualidade, garantindo um acompanhamento diferenciado para cada paciente."
-              onClick={() => handleClick('AtendimentoConvênio')}
-            />
-            <FAQ
-              question="Qual a idade máxima para atendimento?"
-              answer="Atendemos pacientes com idade máxima de 16 anos. Nosso foco é oferecer um atendimento especializado para crianças e adolescentes, proporcionando um ambiente acolhedor e adequado para essa faixa etária."
-              onClick={() => handleClick('IdadeAtendimento')}
-            />
-            <FAQ
-              question="Tem atendimento em convênio?"
-              answer="Sim, é possível fazer atendimento via convênio."
-              onClick={() => handleClick('IdadeAtendimento')}
-            />
-
           </div>
           <button
             className="my-8 rounded-full bg-bege-150 px-20 py-2 text-center text-xl font-semibold text-orange-10 transition duration-300 ease-in-out hover:bg-bege-150/95"

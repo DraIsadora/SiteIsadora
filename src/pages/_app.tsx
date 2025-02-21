@@ -19,5 +19,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <PoliticPrivacityModal />
       </main>
     </>
-  );
+  )
 }

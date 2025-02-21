@@ -9,8 +9,8 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <HeadSeo
-        title='Dra. Isadora Romanini Brambilla...'
-        description='Dra. Isadora R. Brambilla, especialista em pediatria e endocrinologia pediátrica'
+        title="Dra. Isadora Romanini Brambilla..."
+        description="Dra. Isadora R. Brambilla, especialista em pediatria e endocrinologia pediátrica"
       />
       <Analytics />
       <main>

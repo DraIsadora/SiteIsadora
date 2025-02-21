@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
     <>
       <div className="w-full bg-bege-150">
         <div className="fixed w-full items-center bg-bege-100 shadow-md">
-          <div className="flex md:px-56 bg-bege-100 w-full justify-center items-center px-6 py-4">
+          <div className="flex md:px-56 bg-bege-100 w-full justify-center items-center px-6 py-4  ">
             <Link href="/">
               <Image
                 src={Logo3}
@@ -100,18 +100,9 @@ export default function PrivacyPolicy() {
         </div>
         <Footer />
         <div
-          className={`
-            fixed bottom-6 right-6 bg-bege-150 opacity-70 p-3 
-            rounded-full text-orange-1000 cursor-pointer 
-            transition duration-300 ease-in-out 
-            ${scrolled ? 'block' : 'hidden'}
-          `}
-          onClick={() =>
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth',
-            })
-          }
+          className={`fixed bottom-6 right-6 bg-bege-150 opacity-70 p-3 rounded-full text-orange-1000 cursor-pointer transition duration-300 ease-in-out ${scrolled ? 'block' : 'hidden'
+            }`}
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         >
           <FaArrowUp size={24} />
         </div>

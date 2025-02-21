@@ -48,10 +48,7 @@ export default function Footer() {
               id="ButtonWhatsAppFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'WhatsApp')
-                window.open(
-                  'https://wa.me/5511987662698',
-                  '_blank'
-                )
+                window.open('https://wa.me/5511987662698', '_blank')
               }}
             >
               (11) 98766-2698
@@ -63,10 +60,7 @@ export default function Footer() {
               id="ButtonEmailFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'Email')
-                window.open(
-                  'mailto:isadoraromaninib@gmail.com',
-                  '_blank'
-                )
+                window.open('mailto:isadoraromaninib@gmail.com', '_blank')
               }}
             >
               isadoraromaninib@gmail.com
@@ -80,7 +74,7 @@ export default function Footer() {
                 trackButtonClick('Localização', 'Google Maps')
                 window.open(
                   'https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7',
-                  '_blank'
+                  '_blank',
                 )
               }}
             >
@@ -95,7 +89,7 @@ export default function Footer() {
                 trackButtonClick('Localização', 'Google Maps')
                 window.open(
                   'https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9',
-                  '_blank'
+                  '_blank',
                 )
               }}
             >
@@ -103,8 +97,7 @@ export default function Footer() {
             </button>
           </div>
         </div>
-        <div className="flex w-full items-center justify-center"
-        >
+        <div className="flex w-full items-center justify-center">
           {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2616398393207!2d-46.65552202446094!3d-23.559044861507598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ca25df7d6f%3A0x4df17f16cf6bfb0b!2sR.%20Itapeva%2C%20366%20-%20Cj%20131%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001332-000!5e0!3m2!1spt-BR!2sbr!4v1707952021268!5m2!1spt-BR!2sbr"
             loading="lazy"
@@ -113,8 +106,7 @@ export default function Footer() {
           ></iframe> */}
         </div>
       </div>
-      <div className="text-center mt-8"
-      >
+      <div className="text-center mt-8">
         <button
           id="ButtonPrivacyPolicyFooter"
           onClick={() => {

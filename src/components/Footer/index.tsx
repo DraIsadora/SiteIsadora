@@ -1,9 +1,9 @@
-import Image from "next/image";
-import { FaWhatsapp } from "react-icons/fa";
-import { LuMapPin } from "react-icons/lu";
-import { MdOutlineEmail } from "react-icons/md";
-import Logo from "../../../public/Logo.png";
-import * as ga from "../../lib/gtag";
+import Image from 'next/image';
+import { FaWhatsapp } from 'react-icons/fa';
+import { LuMapPin } from 'react-icons/lu';
+import { MdOutlineEmail } from 'react-icons/md';
+import Logo from ''../../../public/Logo.png';
+import * as ga from '../../lib/gtag';
 
 export default function Footer() {
   const trackButtonClick = (category: string, label: string) => {
@@ -13,8 +13,8 @@ export default function Footer() {
       category,
       label,
       value: undefined, // Definindo um valor padrão
-    });
-  };
+    })
+  }
 
   return (
     <div
@@ -75,7 +75,7 @@ export default function Footer() {
                 window.open(
                   "https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7",
                   "_blank",
-                );
+                )
               }}
             >
               Rua Itapeva, 366 - 131 Cj - Bela Vista - São Paulo
@@ -90,7 +90,7 @@ export default function Footer() {
                 window.open(
                   "https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9",
                   "_blank",
-                );
+                )
               }}
             >
               Rua Almirante Brasil, 685, Sala 803, São Paulo - Mooca

@@ -19,7 +19,8 @@ export default function Footer() {
   return (
     <div
       id="endereço"
-      className="bg-orange-10 px-4 py-10 text-bege-100 md:px-40">
+      className="bg-orange-10 px-4 py-10 text-bege-100 md:px-40"
+    >
       <div className="grid w-full items-start justify-center md:grid-cols-2">
         <div className="mb-8 flex flex-col gap-5 md:mb-0 md:w-[500px]">
           <Image
@@ -47,7 +48,10 @@ export default function Footer() {
               id="ButtonWhatsAppFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'WhatsApp')
-                window.open('https://wa.me/5511987662698', '_blank')
+                window.open(
+                  'https://wa.me/5511987662698',
+                  '_blank'
+                )
               }}
             >
               (11) 98766-2698
@@ -59,7 +63,10 @@ export default function Footer() {
               id="ButtonEmailFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'Email')
-                window.open('mailto:isadoraromaninib@gmail.com', '_blank')
+                window.open(
+                  'mailto:isadoraromaninib@gmail.com',
+                  '_blank'
+                )
               }}
             >
               isadoraromaninib@gmail.com
@@ -71,7 +78,10 @@ export default function Footer() {
               id="ButtonGoogleMapsFooter"
               onClick={() => {
                 trackButtonClick('Localização', 'Google Maps')
-                window.open('https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7', '_blank')
+                window.open(
+                  'https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7',
+                  '_blank'
+                )
               }}
             >
               Rua Itapeva, 366 - 131 Cj - Bela Vista - São Paulo
@@ -83,7 +93,10 @@ export default function Footer() {
               id="ButtonGoogleMapsFooter"
               onClick={() => {
                 trackButtonClick('Localização', 'Google Maps')
-                window.open('https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9', '_blank')
+                window.open(
+                  'https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9',
+                  '_blank'
+                )
               }}
             >
               Rua Almirante Brasil, 685, Sala 803, São Paulo - Mooca
@@ -99,7 +112,8 @@ export default function Footer() {
           ></iframe> */}
         </div>
       </div>
-      <div className="text-center mt-8">
+      <div className="text-center mt-8"
+      >
         <button
           id="ButtonPrivacyPolicyFooter"
           onClick={() => {

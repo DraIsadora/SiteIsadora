@@ -1,20 +1,20 @@
-import Image from 'next/image'
-import { FaWhatsapp } from 'react-icons/fa'
-import { LuMapPin } from 'react-icons/lu'
-import { MdOutlineEmail } from 'react-icons/md'
-import Logo from '../../../public/Logo.png'
-import * as ga from '../../lib/gtag'
+import Image from "next/image";
+import { FaWhatsapp } from "react-icons/fa";
+import { LuMapPin } from "react-icons/lu";
+import { MdOutlineEmail } from "react-icons/md";
+import Logo from "../../../public/Logo.png";
+import * as ga from "../../lib/gtag";
 
 export default function Footer() {
   const trackButtonClick = (category: string, label: string) => {
     // Envia os dados do evento de clique para o Google Analytics
     ga.event({
-      action: 'Clique em botão',
+      action: "Clique em botão",
       category,
       label,
       value: undefined, // Definindo um valor padrão
-    })
-  }
+    });
+  };
 
   return (
     <div
@@ -35,8 +35,8 @@ export default function Footer() {
             <button
               id="ButtonWhatsAppFooter"
               onClick={() => {
-                trackButtonClick('Contato', 'WhatsApp')
-                window.open('https://wa.me/5511994373124', '_blank')
+                trackButtonClick("Contato", "WhatsApp");
+                window.open("https://wa.me/5511994373124", "_blank");
               }}
             >
               (11) 99437-3124
@@ -47,8 +47,8 @@ export default function Footer() {
             <button
               id="ButtonWhatsAppFooter"
               onClick={() => {
-                trackButtonClick('Contato', 'WhatsApp')
-                window.open('https://wa.me/5511987662698', '_blank')
+                trackButtonClick("Contato", "WhatsApp");
+                window.open("https://wa.me/5511987662698", "_blank");
               }}
             >
               (11) 98766-2698
@@ -59,8 +59,8 @@ export default function Footer() {
             <button
               id="ButtonEmailFooter"
               onClick={() => {
-                trackButtonClick('Contato', 'Email')
-                window.open('mailto:isadoraromaninib@gmail.com', '_blank')
+                trackButtonClick("Contato", "Email");
+                window.open("mailto:isadoraromaninib@gmail.com", "_blank");
               }}
             >
               isadoraromaninib@gmail.com
@@ -71,11 +71,11 @@ export default function Footer() {
             <button
               id="ButtonGoogleMapsFooter"
               onClick={() => {
-                trackButtonClick('Localização', 'Google Maps')
+                trackButtonClick("Localização", "Google Maps");
                 window.open(
-                  'https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7',
-                  '_blank',
-                )
+                  "https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7",
+                  "_blank",
+                );
               }}
             >
               Rua Itapeva, 366 - 131 Cj - Bela Vista - São Paulo
@@ -86,11 +86,11 @@ export default function Footer() {
             <button
               id="ButtonGoogleMapsFooter"
               onClick={() => {
-                trackButtonClick('Localização', 'Google Maps')
+                trackButtonClick("Localização", "Google Maps");
                 window.open(
-                  'https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9',
-                  '_blank',
-                )
+                  "https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9",
+                  "_blank",
+                );
               }}
             >
               Rua Almirante Brasil, 685, Sala 803, São Paulo - Mooca
@@ -110,13 +110,13 @@ export default function Footer() {
         <button
           id="ButtonPrivacyPolicyFooter"
           onClick={() => {
-            trackButtonClick('Outros', 'Política de Privacidade')
-            window.open('/politica-de-privacidade', '_blank')
+            trackButtonClick("Outros", "Política de Privacidade");
+            window.open("/politica-de-privacidade", "_blank");
           }}
         >
           Política de Privacidade
         </button>
       </div>
     </div>
-  )
+  );
 }

@@ -1,9 +1,9 @@
-import Analytics from '@/components/Analytics'
-import { HeadSeo } from '@/components/HeadSeo'
-import PoliticPrivacityModal from '@/components/Modal/PoliticPrivacityModal'
-import SEO from '@/components/SEO'
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import Analytics from "@/components/Analytics";
+import { HeadSeo } from "@/components/HeadSeo";
+import PoliticPrivacityModal from "@/components/Modal/PoliticPrivacityModal";
+import SEO from "@/components/SEO";
+import "@/styles/globals.css";
+import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -19,5 +19,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <PoliticPrivacityModal />
       </main>
     </>
-  )
+  );
 }

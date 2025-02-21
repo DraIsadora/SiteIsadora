@@ -262,7 +262,7 @@ export default function Home() {
         </button>
       </div>
 
-     <Footer />
+      <Footer />
       <div
         className={`
           fixed bottom-6 right-6 bg-bege-150 opacity-70 p-3 rounded-full 

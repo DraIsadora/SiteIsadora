@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
     <>
       <div className="w-full bg-bege-150">
         <div className="fixed w-full items-center bg-bege-100 shadow-md">
-          <div className="flex md:px-56 bg-bege-100 w-full justify-center items-center px-6 py-4  ">
+          <div className="flex md:px-56 bg-bege-100 w-full justify-center items-center px-6 py-4">
             <Link href="/">
               <Image
                 src={Logo3}

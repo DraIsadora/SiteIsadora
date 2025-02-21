@@ -19,8 +19,7 @@ export default function Footer() {
   return (
     <div
       id="endereço"
-      className="bg-orange-10 px-4 py-10 text-bege-100 md:px-40"
-    >
+      className="bg-orange-10 px-4 py-10 text-bege-100 md:px-40">
       <div className="grid w-full items-start justify-center md:grid-cols-2">
         <div className="mb-8 flex flex-col gap-5 md:mb-0 md:w-[500px]">
           <Image
@@ -35,7 +34,7 @@ export default function Footer() {
             <button
               id="ButtonWhatsAppFooter"
               onClick={() => {
-                trackButtonClick('Contato', 'WhatsApp');
+                trackButtonClick('Contato', 'WhatsApp')
                 window.open('https://wa.me/5511994373124', '_blank')
               }}
             >
@@ -47,7 +46,7 @@ export default function Footer() {
             <button
               id="ButtonWhatsAppFooter"
               onClick={() => {
-                trackButtonClick('Contato', 'WhatsApp');
+                trackButtonClick('Contato', 'WhatsApp')
                 window.open('https://wa.me/5511987662698', '_blank')
               }}
             >
@@ -59,7 +58,7 @@ export default function Footer() {
             <button
               id="ButtonEmailFooter"
               onClick={() => {
-                trackButtonClick('Contato', 'Email');
+                trackButtonClick('Contato', 'Email')
                 window.open('mailto:isadoraromaninib@gmail.com', '_blank')
               }}
             >
@@ -71,7 +70,7 @@ export default function Footer() {
             <button
               id="ButtonGoogleMapsFooter"
               onClick={() => {
-                trackButtonClick('Localização', 'Google Maps');
+                trackButtonClick('Localização', 'Google Maps')
                 window.open('https://maps.app.goo.gl/4N3LHHtNLd1vKDCU7', '_blank')
               }}
             >
@@ -83,7 +82,7 @@ export default function Footer() {
             <button
               id="ButtonGoogleMapsFooter"
               onClick={() => {
-                trackButtonClick('Localização', 'Google Maps');
+                trackButtonClick('Localização', 'Google Maps')
                 window.open('https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9', '_blank')
               }}
             >
@@ -104,8 +103,8 @@ export default function Footer() {
         <button
           id="ButtonPrivacyPolicyFooter"
           onClick={() => {
-            trackButtonClick('Outros', 'Política de Privacidade');
-            window.open('/politica-de-privacidade', '_blank');
+            trackButtonClick('Outros', 'Política de Privacidade')
+            window.open('/politica-de-privacidade', '_blank')
           }}
         >
           Política de Privacidade

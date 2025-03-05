@@ -6,11 +6,11 @@ interface TextCardProps {
 
 export default function TextBox({ children }: TextCardProps) {
   return (
-    <div className="flex items-start justify-center gap-2">
+    <div className="flex items-center justify-left gap-2">
       <span className="flex h-4 w-4 items-start">
         <GiCheckMark />
       </span>
-      <span className="text-lg font-light leading-none">{children}</span>
+      <span className="text-lg font-light leading-none textBoxItems">{children}</span>
     </div>
   )
 }

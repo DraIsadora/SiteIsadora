@@ -40,3 +40,15 @@ body {
   margin: 0 1%;
   height: 350px;
 }
+
+.imageDra {
+  width: 90%;
+}
+
+.textBoxItems {
+  font-size: 1.5rem;
+}
+
+.textCardsAtuacao {
+  font-size: 1.25rem;
+}

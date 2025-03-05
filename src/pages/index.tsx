@@ -119,10 +119,10 @@ export default function Home() {
               <Image
                 src={DraIsadora}
                 alt="Dra Isadora"
-                className="mx-auto h-auto w-full"
+                className="mx-auto h-auto w-full imageDra"
               />
             </div>
-            <div className="flex h-full w-full flex-col gap-6 text-left">
+            <div className="flex h-full w-full flex-col gap-6 text-left justify-center">
               <TextBox>
                 Graduada em Medicina pela Universidade do Oeste Paulista
                 (UNOESTE).
@@ -239,6 +239,11 @@ export default function Home() {
               question="Para reembolso do convênio, é emitido nota?"
               answer="Sim, o faremos ao fim da consulta."
               onClick={() => handleClick('ReembolsoConvênio')}
+            />
+            <FAQ
+              question="É possível atendimento via convênio?"
+              answer="Sim, fazemos atendimento via convênio."
+              onClick={() => handleClick('AtendimentoConvênio')}
             />
           </div>
           <button

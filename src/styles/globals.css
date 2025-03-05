@@ -30,3 +30,12 @@ body {
 .animate-bounce {
   animation: bounce 1s infinite;
 }
+
+.politicas ul {
+  list-style: initial;
+  margin-left: 1rem;
+}
+
+.mapaFooter {
+  margin: 0 1%;
+}

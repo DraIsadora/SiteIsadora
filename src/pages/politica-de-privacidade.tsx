@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
           <title>Política de Privacidade</title>
         </Head>
 
-        <div className="md:px-28 pb-10 2xl:px-36 pt-32 px-6">
+        <div className="md:px-28 pb-10 2xl:px-36 pt-32 px-6 politicas">
           <h1 className="text-4xl text-left font-semibold mb-4">
             Política de Privacidade
           </h1>

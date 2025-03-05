@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { FaWhatsapp } from 'react-icons/fa'
-import { LuMapPin } from 'react-icons/lu'
-import { LuInstagram } from 'react-icons/lu'
+import { LuMapPin, LuInstagram } from 'react-icons/lu'
 import { MdOutlineEmail } from 'react-icons/md'
 import Logo from '../../../public/Logo.png'
 import * as ga from '../../lib/gtag'

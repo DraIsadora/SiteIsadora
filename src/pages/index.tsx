@@ -111,18 +111,18 @@ export default function Home() {
       <div id="aboutMe" className="bg-bege-150 px-3 pt-16 md:h-full md:px-32">
         <div className="relative flex w-full flex-col items-center justify-center gap-4 rounded-[30px] bg-orange-10 px-4 py-8 text-center text-bege-150 shadow-2xl -top-[100px] md:-top-[153px] md:gap-5 md:rounded-[50px] md:px-32">
           <div className="w-[10%] rounded-full border-2 border-orange-1000 md:w-[5%]" />
-          <h1 className="mb-4 text-base font-semibold uppercase leading-none md:mb-6 md:text-3xl">
+          <h1 className="mb-4 text-base font-semibold uppercase leading-none md:mb-6 md:text-3xl textTitles">
             DRA. ISADORA R. BRAMBILLA
           </h1>
-          <div className="grid w-full grid-cols-1 items-start md:grid-cols-2 ">
-            <div className="mb-4 flex items-center justify-start">
+          <div className="grid w-full grid-cols-1 items-start md:grid-cols-2">
+            <div className="mb-4 flex items-center justify-start ImageDraOrder">
               <Image
                 src={DraIsadora}
                 alt="Dra Isadora"
                 className="mx-auto h-auto w-full imageDra"
               />
             </div>
-            <div className="flex h-full w-full flex-col gap-6 text-left justify-center">
+            <div className="flex h-full w-full flex-col gap-6 text-left justify-center TextDraOrder">
               <TextBox>
                 Graduada em Medicina pela Universidade do Oeste Paulista
                 (UNOESTE).
@@ -156,7 +156,7 @@ export default function Home() {
           id="atuação"
           className="relative -top-[95px] flex flex-col items-center justify-center gap-7 "
         >
-          <h1 className="mt-40 text-3xl font-semibold uppercase leading-none text-orange-1000 md:mt-0">
+          <h1 className="mt-40 text-3xl font-semibold uppercase leading-none text-orange-1000 md:mt-0 textTitles">
             ÁREAS DE ATUAÇÃO
           </h1>
           {isMobile ? (
@@ -216,7 +216,7 @@ export default function Home() {
       >
         <div className="mb-16 flex w-full flex-col items-center justify-center gap-5 rounded-3xl bg-orange-10 px-6 py-8 text-center text-bege-150 shadow-2xl md:rounded-[50px] md:px-32">
           <div className="w-[10%] rounded-full border-2 border-orange-1000" />
-          <h2 className="mb-6 text-3xl font-semibold uppercase leading-none">
+          <h2 className="mb-6 text-3xl font-semibold uppercase leading-none textTitles">
             DÚVIDAS FREQUENTES
           </h2>
           <div className="flex flex-col items-start gap-6">
@@ -284,7 +284,7 @@ export default function Home() {
       >
         <BsWhatsapp size={36} />
       </button>
-    </div>
+    </div >
   )
 }
 

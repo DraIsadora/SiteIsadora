@@ -22,7 +22,7 @@ export default function Footer() {
       className="bg-orange-10 px-4 py-10 text-bege-100 md:px-40"
     >
       <div className="grid w-full items-start justify-center md:grid-cols-2">
-        <div className="mb-6 flex flex-col gap-5 md:mb-0 md:w-[500px]">
+        <div className="mb-6 flex flex-col gap-5 md:mb-0 md:w-[500px] contactFooter">
           <Image
             className="rounded-md bg-bege-150 p-3"
             src={Logo}
@@ -90,7 +90,7 @@ export default function Footer() {
                 )
               }}
             >
-              Rua Itapeva, 366 - 131 Cj - Bela Vista - São Paulo
+              R. Itapeva, 366 - 131 Cj - Bela Vista - São Paulo
             </button>
           </div>
           <div className="flex items-center gap-2">
@@ -105,11 +105,11 @@ export default function Footer() {
                 )
               }}
             >
-              Rua Almirante Brasil, 685, Sala 803, São Paulo - Mooca
+              R. Almirante Brasil, 685, Sala 803, São Paulo
             </button>
           </div>
         </div>
-        <div className="flex w-full items-center justify-center md:mb-0">
+        <div className="flex w-full items-center justify-center md:mb-0 altDisplayFlex">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2615023868802!2d-46.6529471!3d-23.5590498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ac30b186ff%3A0xc6750200e85cdba9!2sDra%20Isadora%20Brambilla%20-%20Endocrinologista%20Pedi%C3%A1trica!5e0!3m2!1spt-BR!2sbr!4v1741202159845!5m2!1spt-BR!2sbr"
             loading="lazy"

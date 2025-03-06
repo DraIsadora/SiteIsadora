@@ -52,3 +52,198 @@ body {
 .textCardsAtuacao {
   font-size: 1.25rem;
 }
+
+@media(min-width: 2000px) {}
+
+@media(min-width: 1400px) and (max-width: 1900px) {}
+
+@media(min-width: 1280px) and (max-width: 1399px) {}
+
+@media(min-width: 1024px) and (max-width: 1279px) {
+  .mapaFooter {
+    margin: 3% 1%;
+    height: 250px;
+    width: 48%;
+  }
+
+  .altDisplayFlex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .md\:px-40 {
+    padding: 3rem !important;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .md\:px-56 {
+    padding: 0 4rem !important;
+  }
+
+  .md\:w-\[440px\] {
+    width: 60% !important;
+    margin: 0 auto !important;
+  }
+
+  .md\:h-screen {
+    height: 100vh !important;
+  }
+
+  .headerDra {
+    padding: 1rem 0;
+  }
+
+  .headerDra button,
+  .headerDra a {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .headerDra .space-x-12> :not([hidden])~ :not([hidden]) {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .headerDra button img {
+    width: 70%;
+  }
+
+  .md\:px-32 {
+    padding: 4rem !important;
+  }
+
+  #atuação .grid-cols-5 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:text-xl {
+    font-size: 1rem !important;
+    font-weight: 700;
+  }
+
+  .ImageDraOrder {
+    order: 2;
+  }
+
+  .TextDraOrder {
+    order: 1;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+  .mapaFooter {
+    margin: 3% 1%;
+    height: 250px;
+    width: 48%;
+  }
+
+  .altDisplayFlex {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .md\:px-40 {
+    padding: 3rem !important;
+  }
+
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .md\:px-56 {
+    padding: 0 4rem !important;
+  }
+
+  .md\:w-\[440px\] {
+    width: 80% !important;
+    margin: 0 auto !important;
+  }
+
+  .md\:h-screen {
+    height: 80vh !important;
+  }
+
+  .headerDra {
+    padding: 1rem 0;
+  }
+
+  .headerDra button,
+  .headerDra a {
+    font-size: .9rem;
+    text-align: center;
+  }
+
+  .headerDra .space-x-12> :not([hidden])~ :not([hidden]) {
+    margin-right: .5rem;
+    margin-left: .5rem;
+  }
+
+  .headerDra button img {
+    width: 70%;
+  }
+
+  .md\:px-32 {
+    padding: 4rem !important;
+  }
+
+  #atuação .grid-cols-5 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:text-xl {
+    font-size: 1rem !important;
+    font-weight: 700;
+  }
+}
+
+@media(max-width: 767px) {
+  .py-8 {
+    padding: 2rem;
+  }
+
+  .px-4 {
+    padding: 2rem;
+  }
+
+  .mt-40 {
+    margin-top: 5rem;
+  }
+
+  .imageDra {
+    width: 100%;
+  }
+
+  .textBoxItems {
+    font-size: 1.15rem;
+  }
+
+  .textTitles {
+    font-size: 1.75rem;
+  }
+
+  .mapaFooter {
+    margin: 2.5% 0;
+    height: 250px;
+    width: 100%;
+  }
+
+  .altDisplayFlex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .w-7 {
+    width: 1.25rem;
+  }
+
+  .h-7 {
+    height: 1.25rem;
+  }
+
+  .contactFooter button {
+    font-size: .95rem;
+  }
+}

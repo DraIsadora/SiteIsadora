@@ -46,7 +46,7 @@ export default function Header() {
 
   return (
     <div className="relative">
-      <div className="fixed w-full items-center bg-bege-100 shadow-md">
+      <div className="fixed w-full items-center bg-bege-100 shadow-md headerDra">
         <div className="flex w-full items-center justify-between px-6 py-4 md:px-56">
           <button
             onClick={(e) => {

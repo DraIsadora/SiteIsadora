@@ -53,11 +53,135 @@ body {
   font-size: 1.25rem;
 }
 
-@media(min-width: 2000px) {}
+@media(min-width: 2000px) {
+  .text-xl {
+    font-size: 1.75rem;
+    line-height: 2.75rem;
+  }
 
-@media(min-width: 1400px) and (max-width: 1900px) {}
+  .md\:text-5xl {
+    font-size: 4rem !important;
+  }
 
-@media(min-width: 1280px) and (max-width: 1399px) {}
+  .md\:w-\[440px\] {
+    width: 550px !important;
+  }
+
+  #home span.text-left {
+    font-size: 1.75rem;
+  }
+
+  #home span.text-base {
+    font-size: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 3rem !important;
+    margin: 2rem 0 0 !important;
+  }
+
+  .textBoxItems {
+    font-size: 2.5rem;
+  }
+
+  .w-4 {
+    width: 2rem;
+  }
+
+  .h-4 {
+    height: 2rem;
+  }
+
+  #aboutMe span.h-4.w-4 svg {
+    font-size: 2rem;
+  }
+
+  #aboutMe .gap-2 {
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+
+  #atuação {
+    padding: 4rem 0;
+  }
+
+  .text-3xl {
+    font-size: 3rem;
+    margin: 2rem 0;
+    line-height: 2.25rem;
+  }
+
+  #atuação .gap-5 {
+    gap: 3rem;
+  }
+
+  #atuação .md\:w-\[212px\] {
+    width: 300px;
+  }
+
+  #atuação .textCardsAtuacao {
+    font-size: 1.75rem;
+  }
+
+  #atuação .h-\[185px\] {
+    height: 250px;
+  }
+
+  .md\:text-xl {
+    font-size: 1.75rem !important;
+  }
+
+  .text-base {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  }
+
+  #duvidas .gap-6 {
+    gap: 2.5rem;
+  }
+
+  .contactFooter button {
+    font-size: 1.25rem;
+  }
+
+  .politicas h2 {
+    font-size: 2.15rem !important;
+  }
+
+  .politicas p,
+  .politicas ul,
+  .politicas li {
+    font-size: 1.5rem;
+  }
+}
+
+@media(min-width: 1400px) and (max-width: 1900px) {
+  .textBoxItems {
+    font-size: 1.25rem;
+  }
+
+  .textCardsAtuacao {
+    font-size: 1.15rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0;
+  }
+}
+
+@media(min-width: 1280px) and (max-width: 1399px) {
+  .textBoxItems {
+    font-size: 1.15rem;
+  }
+
+  .textCardsAtuacao {
+    font-size: 1.15rem;
+  }
+
+  .mb-4 {
+    margin-bottom: 0;
+  }
+}
 
 @media(min-width: 1024px) and (max-width: 1279px) {
   .mapaFooter {

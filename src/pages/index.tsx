@@ -242,7 +242,7 @@ export default function Home() {
             />
             <FAQ
               question="É possível atendimento via convênio?"
-              answer="Sim, fazemos atendimento via convênio."
+              answer="Não, nós não fazemos atendimento via convênio."
               onClick={() => handleClick('AtendimentoConvênio')}
             />
           </div>

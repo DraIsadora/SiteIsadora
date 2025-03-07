@@ -75,7 +75,7 @@ export default function Footer() {
                 window.open('https://www.instagram.com/isadorarb/', '_blank')
               }}
             >
-              @isadorarb/
+              @isadorarb
             </button>
           </div>
           <div className="flex items-center gap-2">

@@ -105,7 +105,7 @@ export default function Footer() {
                 )
               }}
             >
-              R. Almirante Brasil, 685, Sala 803, São Paulo
+              R. Almirante Brasil, 685, Sala 803, - Mooca - São Paulo
             </button>
           </div>
         </div>

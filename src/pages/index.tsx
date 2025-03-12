@@ -241,7 +241,7 @@ export default function Home() {
               onClick={() => handleClick('ReembolsoConvênio')}
             />
             <FAQ
-              question="É possível atendimento via convênio?"
+              question="É realizado atendimento via convênio?"
               answer="Não, são realizados apenas atendimentos particulares."
               onClick={() => handleClick('AtendimentoConvênio')}
             />

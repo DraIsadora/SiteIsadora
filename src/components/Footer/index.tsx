@@ -111,14 +111,13 @@ export default function Footer() {
         </div>
         <div className="flex w-full items-center justify-center md:mb-0 altDisplayFlex">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1471009185407!2d-46.59091792454622!3d-23.563159761658532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5eae871ec9e5%3A0x1c7d54a923fda87e!2sR.%20Fernando%20Falc%C3%A3o%2C%201111%20-%20Vila%20Claudia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003180-003!5e0!3m2!1spt-BR!2sbr!4v1779285165011!5m2!1spt-BR!2sbr"
-            loading="lazy"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.147100918541!2d-46.59091792454618!3d-23.56315976165853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5eae871ec9e5%3A0x1c7d54a923fda87e!2sR.%20Fernando%20Falc%C3%A3o%2C%201111%20-%20Vila%20Claudia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003180-003!5e0!3m2!1spt-BR!2sbr!4v1779287071522!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             height="300"
             width="48%"
             className='mapaFooter'
           ></iframe>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.079283551103!2d-46.67932262454734!3d-23.529650660428228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57b7618d4a9f%3A0x67d5e28867784f43!2sAv.%20Ant%C3%A1rtica%2C%20675%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005003-020!5e0!3m2!1spt-BR!2sbr!4v1779285280894!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0792835511033!2d-46.67932262454737!3d-23.529650660428214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57b7618d4a9f%3A0x67d5e28867784f43!2sAv.%20Ant%C3%A1rtica%2C%20675%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005003-020!5e0!3m2!1spt-BR!2sbr!4v1779286955924!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
             loading="lazy"
             height="300"
             width="48%"

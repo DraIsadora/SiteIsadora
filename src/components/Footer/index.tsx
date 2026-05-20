@@ -90,7 +90,7 @@ export default function Footer() {
                 )
               }}
             >
-              R. Itapeva, 366 - 131 Cj - Bela Vista - São Paulo
+              Avenida Antartica, 675 - São Paulo
             </button>
           </div>
           <div className="flex items-center gap-2">
@@ -105,20 +105,20 @@ export default function Footer() {
                 )
               }}
             >
-              R. Almirante Brasil, 685, Sala 803, - Mooca - São Paulo
+              R. Fernando Falcão, 1111 - Cj 2305 - Mooca - São Paulo
             </button>
           </div>
         </div>
         <div className="flex w-full items-center justify-center md:mb-0 altDisplayFlex">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2615023868802!2d-46.6529471!3d-23.5590498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ac30b186ff%3A0xc6750200e85cdba9!2sDra%20Isadora%20Brambilla%20-%20Endocrinologista%20Pedi%C3%A1trica!5e0!3m2!1spt-BR!2sbr!4v1741202159845!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1471009185407!2d-46.59091792454622!3d-23.563159761658532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5eae871ec9e5%3A0x1c7d54a923fda87e!2sR.%20Fernando%20Falc%C3%A3o%2C%201111%20-%20Vila%20Claudia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003180-003!5e0!3m2!1spt-BR!2sbr!4v1779285165011!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
             loading="lazy"
             height="300"
             width="48%"
             className='mapaFooter'
           ></iframe>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4538621877173!2d-46.6056879!3d-23.552137600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce593bd3df143d%3A0x4b9ce5cd6bd0ee9f!2sRua%3A%20Almirante%20Brasil%2C%20685%20-%20Mooca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003162-010!5e0!3m2!1spt-BR!2sbr!4v1741202267048!5m2!1spt-BR!2sbr"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.079283551103!2d-46.67932262454734!3d-23.529650660428228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57b7618d4a9f%3A0x67d5e28867784f43!2sAv.%20Ant%C3%A1rtica%2C%20675%20-%20Barra%20Funda%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005003-020!5e0!3m2!1spt-BR!2sbr!4v1779285280894!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
             loading="lazy"
             height="300"
             width="48%"

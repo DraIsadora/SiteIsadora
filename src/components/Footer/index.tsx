@@ -111,13 +111,13 @@ export default function Footer() {
         </div>
         <div className="flex w-full items-center justify-center md:mb-0 altDisplayFlex">
           <iframe
-            src="https://www.google.com/maps?q=Rua+Fernando+Falcão,+1111,+São+Paulo&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.079283551103!2d-46.67932262454734!3d-23.529650660428228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57b7618d4a99%3A0x8a7c6b3b9b4a9c4!2sAv.%20Ant%C3%A1rtica%2C%20675%20-%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1779285280894!5m2!1spt-BR!2sbr"
             height="300"
             width="48%"
             className='mapaFooter'
           ></iframe>
           <iframe
-            src="https://www.google.com/maps?q=Avenida+Antartica,+675,+São+Paulo&output=embed"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1471009185407!2d-46.59091792454622!3d-23.563159761658532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5eae871ec9b%3A0x4f86e8e6fef31f4c!2sRua%20Fernando%20Falc%C3%A3o%2C%201111%20-%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1779285165011!5m2!1spt-BR!2sbr"
             loading="lazy"
             height="300"
             width="48%"

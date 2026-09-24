@@ -39,7 +39,7 @@ export default function Footer() {
                 window.open('https://wa.me/5511925183909', '_blank')
               }}
             >
-              (11) 99437-3124
+              (11) 92518-3909
             </button>
           </div>
           <div className="flex items-center gap-2">
@@ -51,7 +51,7 @@ export default function Footer() {
                 window.open('https://wa.me/5511925183909', '_blank')
               }}
             >
-              (11) 98766-2698
+              (11) 92518-3909
             </button>
           </div>
           <div className="flex items-center gap-2">

@@ -112,7 +112,7 @@ export default function Header() {
               type="button"
               target="_blank"
               className="rounded-3xl bg-orange-10 px-7 py-1.5 text-whiteoff-100 transition duration-300 ease-in-out hover:bg-orange-10/80"
-              href="https://wa.me/5511994373124"
+              href="https://wa.me/5511925183909"
               onClick={() => handleClick('Agendar Consulta')}
               id="ButtonAgendarConsultaHeader"
             >
@@ -203,7 +203,7 @@ export default function Header() {
               className="rounded-2xl bg-bege-150 p-3 text-orange-1000 transition duration-300 ease-in-out hover:bg-bege-150/80"
               onClick={() => {
                 handleClick('Agendar Consulta')
-                window.open('https://wa.me/5511994373124', '_blank')
+                window.open('https://wa.me/5511925183909', '_blank')
               }}
               id="ButtonAgendarConsultaMobile"
             >

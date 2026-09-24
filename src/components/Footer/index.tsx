@@ -85,7 +85,7 @@ export default function Footer() {
               onClick={() => {
                 trackButtonClick('Localização', 'Google Maps')
                 window.open(
-                  'https://maps.app.goo.gl/F1LUj43Tq28VuiRLA',
+                  'https://maps.app.goo.gl/73GLQHVBPdu1ePHp9',
                   '_blank',
                 )
               }}
@@ -100,7 +100,7 @@ export default function Footer() {
               onClick={() => {
                 trackButtonClick('Localização', 'Google Maps')
                 window.open(
-                  'https://maps.app.goo.gl/MGupjCvz7rzHfcH69',
+                  'https://maps.app.goo.gl/31tfAZ7pPxE3Puym6',
                   '_blank',
                 )
               }}

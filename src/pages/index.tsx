@@ -260,7 +260,7 @@ export default function Home() {
           className="mb-16 rounded-full bg-orange-10 px-20 py-2 text-center text-xl font-semibold text-bege-150 transition duration-300 ease-in-out hover:bg-orange-10/80"
           onClick={() => {
             handleClick('DoubtButton')
-            window.open('https://wa.me/5511994373124', '_blank')
+            window.open('https://wa.me/5511925183909', '_blank')
           }}
         >
           Agendar Consulta
@@ -279,7 +279,7 @@ export default function Home() {
         className="fixed mb-8 bottom-16 right-6 bg-green-500 p-3 rounded-full text-white cursor-pointer transition duration-300 ease-in-out hover:bg-green-600 animate-bounce"
         onClick={() => {
           handleClick('WhatsAppButton')
-          window.open('https://wa.me/5511994373124', '_blank')
+          window.open('https://wa.me/5511925183909', '_blank')
         }}
       >
         <BsWhatsapp size={36} />

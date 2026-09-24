@@ -36,7 +36,7 @@ export default function Footer() {
               id="ButtonWhatsAppFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'WhatsApp')
-                window.open('https://wa.me/5511994373124', '_blank')
+                window.open('https://wa.me/5511925183909', '_blank')
               }}
             >
               (11) 99437-3124
@@ -48,7 +48,7 @@ export default function Footer() {
               id="ButtonWhatsAppFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'WhatsApp')
-                window.open('https://wa.me/5511987662698', '_blank')
+                window.open('https://wa.me/5511925183909', '_blank')
               }}
             >
               (11) 98766-2698

@@ -100,7 +100,7 @@ export default function Footer() {
               onClick={() => {
                 trackButtonClick('Localização', 'Google Maps')
                 window.open(
-                  'https://maps.app.goo.gl/5VjzyFNmkDoXKBCq9',
+                  'https://maps.app.goo.gl/rcU1d4G9cxbL3nvL9',
                   '_blank',
                 )
               }}

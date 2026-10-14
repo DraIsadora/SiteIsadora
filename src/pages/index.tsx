@@ -97,7 +97,7 @@ export default function Home() {
               id="HomeButton"
               onClick={() => {
                 handleClick('HomeButton')
-                window.open('https://wa.me/5511994373124', '_blank')
+                window.open('https://wa.me/5511925183909', '_blank')
               }}
               className="rounded-full bg-bege-150 p-2 text-center text-base text-orange-1000 transition duration-300 ease-in-out hover:bg-bege-150/80 md:p-3 md:text-xl"
             >

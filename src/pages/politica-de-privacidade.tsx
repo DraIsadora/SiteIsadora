@@ -183,8 +183,8 @@ export default function PrivacyPolicy() {
             </p>
             <p>
               <b>Dra. Isadora Brambilla</b><br />
-              <b>Telefone: </b>(11) 99437-3124<br />
-              <b>Endereço: </b>R. Itapeva, 366 - Cj 131 - Bela Vista, São Paulo - SP, 01332-000<br />
+              <b>Telefone: </b>(11) 92518-3909<br />
+              <b>Endereço: </b>Av. Anttartica , 675 - Perdizes, São Paulo - SP, 05003-020<br />
             </p>
             <p>Ao continuar a utilizar nosso site, você confirma que leu e concorda com os termos desta Política de Privacidade.</p>
           </div>
@@ -201,7 +201,7 @@ export default function PrivacyPolicy() {
         </div>
         <div
           className="fixed mb-8 bottom-16 right-6 bg-green-500 p-3 rounded-full text-white cursor-pointer transition duration-300 ease-in-out hover:bg-green-600 animate-bounce"
-          onClick={() => window.open('https://wa.me/5511994373124', '_blank')}
+          onClick={() => window.open('https://wa.me/5511925183909', '_blank')}
         >
           <BsWhatsapp size={36} />
         </div>

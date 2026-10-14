@@ -90,7 +90,7 @@ export default function Footer() {
                 )
               }}
             >
-              Avenida Antartica, 675 - São Paulo
+              Avenida Antartica, 675 - Perdizes - São Paulo
             </button>
           </div>
           <div className="flex items-center gap-2">

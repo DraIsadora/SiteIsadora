@@ -100,18 +100,18 @@ export default function Footer() {
               onClick={() => {
                 trackButtonClick('Localização', 'Google Maps')
                 window.open(
-                  'https://maps.app.goo.gl/31tfAZ7pPxE3Puym6',
+                  'https://maps.app.goo.gl/RCQPWezpho6fNpHQA',
                   '_blank',
                 )
               }}
             >
-              R. Fernando Falcão, 1111 - Cj 2305 - Mooca - São Paulo
+              Alameda Navarro de Andrade, 145 – Centro, Adamantina - SP
             </button>
           </div>
         </div>
         <div className="flex w-full items-center justify-center md:mb-0 altDisplayFlex">
          <iframe
-  src="https://www.google.com/maps?q=Rua+Fernando+Falcão,+1111,+São+Paulo&output=embed"
+  src="https://www.google.com/maps/place/Alameda+Navarro+de+Andrade,+145+-+Centro,+Adamantina+-+SP,+17800-007/@-21.6902472,-51.0733572,17z/data=!3m1!4b1!4m6!3m5!1s0x9496a3df645ecdf1:0x4fe3fbf894a635f7!8m2!3d-21.6902472!4d-51.0707823!16s%2Fg%2F11fmz8wc6v?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D"
   loading="lazy"
   height="300"
   width="48%"

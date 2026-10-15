@@ -48,10 +48,10 @@ export default function Footer() {
               id="ButtonWhatsAppFooter"
               onClick={() => {
                 trackButtonClick('Contato', 'WhatsApp')
-                window.open('https://wa.me/5511925183909', '_blank')
+                window.open('https://wa.me/5518996016258', '_blank')
               }}
             >
-              (11) 92518-3909
+              (18) 99601-6258
             </button>
           </div>
           <div className="flex items-center gap-2">

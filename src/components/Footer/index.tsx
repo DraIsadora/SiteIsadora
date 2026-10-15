@@ -111,7 +111,7 @@ export default function Footer() {
         </div>
         <div className="flex w-full items-center justify-center md:mb-0 altDisplayFlex">
          <iframe
-  src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.32121283873!2d-51.07335722472501!3d-21.690247180129703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9496a3df645ecdf1%3A0x4fe3fbf894a635f7!2sAlameda%20Navarro%20de%20Andrade%2C%20145%20-%20Centro%2C%20Adamantina%20-%20SP%2C%2017800-007!5e0!3m2!1spt-BR!2sbr!4v1792108004438!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.32121283873!2d-51.07335722472501!3d-21.690247180129703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9496a3df645ecdf1%3A0x4fe3fbf894a635f7!2sAlameda%20Navarro%20de%20Andrade%2C%20145%20-%20Centro%2C%20Adamantina%20-%20SP%2C%2017800-007!5e0!3m2!1spt-BR!2sbr!4v1792108004438!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
   loading="lazy"
   height="300"
   width="48%"
